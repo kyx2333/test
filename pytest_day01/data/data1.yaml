@@ -1,0 +1,11 @@
+tests:
+  case:
+    http:
+      method: GET
+      path: api/v1/app/options
+      header:
+        User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+      params:
+    expected:
+      response:
+        useremail: keyouxing@forensix.cn1
